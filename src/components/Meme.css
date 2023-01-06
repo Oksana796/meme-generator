@@ -2,10 +2,11 @@ main {
   padding: 36px;
 }
 
-form {
+.form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .form--input {
@@ -21,4 +22,35 @@ form {
   color: white;
   border: none;
   cursor: pointer;
+}
+
+.meme {
+  position: relative;
+  text-align: center;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  color: white;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
 }
