@@ -1,6 +1,5 @@
 import "./Header.css";
 
-
 const Header = () => {
   return (
     <header className="header">
@@ -10,7 +9,6 @@ const Header = () => {
         className="header--image"
       />
       <h2 className="header--title">Meme Generator</h2>
-      <h4 className="header--text">React project</h4>
     </header>
   );
 };

@@ -18,7 +18,7 @@ main {
 .form--button {
   grid-column: 1 / -1;
   border-radius: 5px;
-  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  background: linear-gradient(90.41deg, #4b2a3c 1.14%, #e17299 100%);
   color: white;
   border: none;
   cursor: pointer;
@@ -38,7 +38,7 @@ main {
 .meme--text {
   position: absolute;
   width: 80%;
-  color: white;
+  color: black;
   text-align: center;
   left: 50%;
   transform: translateX(-50%);
@@ -47,6 +47,9 @@ main {
   font-size: 2em;
   text-transform: uppercase;
   letter-spacing: 1px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px;
+  word-break: break-all;
 }
 
 .top {

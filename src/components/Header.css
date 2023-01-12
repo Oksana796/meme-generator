@@ -2,7 +2,7 @@ header {
     display:flex;
     align-items: center;
     height: 65px;
-    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    background: linear-gradient(90deg, #4b2a3c 1.14%, #e17299 100%);
     color: white;
     padding: 20px;
 }
@@ -20,4 +20,5 @@ header {
 .header--text {
     font-size: 0.75rem;
     font-weight: 600;
+    
 }
